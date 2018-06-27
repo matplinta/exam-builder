@@ -1,0 +1,603 @@
+2)OFDM jest techniką:
+a)        Modulacji
+b)    cośtam z wielodostępem
+>>>c)    zwielokrotnienia
+
+﻿1)Zmieniono GSM z 1800 na 900  jak zmieniły się straty modelu Friisa
+a) Wzrósł o 6 dB
+b) Wzrósł 4 krotnie
+c) Zmalał o 3 dB
+d) Zmalał 2 krotnie
+>>>e) Zmalało 4 krotnie
+>>>f) Zmalało o 6 dB
+
+
+2)Częstotliwość w telefonii komórkowej co zrobić aby była idealna synchronizacja z urządzeniem)
+>>>a)    użyć pakietu korekcji częstotliwości
+b)    wysyłać okresowo(cykliczne :D sygnał z niezmodulowaną nośną 
+>>>c)    wysyłać okresowo (cyklicznie :D sygnał z nośną większą o kilkadziesiąt kHz
+d)    kwarc w odbiorniku o dobrej dokładności / dobrze dostrojony oscylator w urządzeniu przenośnym
+
+
+3)MIMO(2,2), modulacja QPSK, FEC = ½, pasmo 2 MHz)Jaka będzie prędkość transmisji BEZ stosowania kodowania nadmiarowego? 
+ 
+>>>a)    ponad 3 mb/s  
+b)    ponad 4 mb/s
+>>>c)    około 4 mb/s       
+e)    około 2 mb/s
+
+
+5)Zastępcza izotropowa moc promieniowania układu, złożonego z nadajnika o mocy wyjściowej 100 mW, połączonego z anteną o maksymalnym zysku energetycznym 13 dBi tłumienności 3dB 
+>>>A)   1W
+>>>B)  30dBm
+C)  30 dBW
+D)  0 dB 
+
+
+6)Jeżeli widmowa gęstość mocy szumów własnych na wejściu wzmacniacza LNA stacji eNodeB(coś takiego), pracującego w temperaturze 17 °C jest równa –171 dBm/Hz, to współczynnik szumów tego wzmacniacza wynosi około: 
+a)   3 dBm
+>>>b)   2
+c)   3
+d)   2 dB
+
+
+7)Jednostką stosunku mocy średniej sygnału nośnego do widmowej gęstości mocy szumu na wejściu odbiornika radiowego jest: (C/N0 ]: 
+a) dB 
+b) dBW
+c) dBmHz   
+>>>d) (W/(W/Hz) = (W/W)*Hz = dBHz  
+8)Zmiana z 16QAM na QPSK
+>>>a)    lepsza sprawność energetyczna
+b)    potrzebny większy SNR żeby był dany BER
+c)    lepsza sprawność widmowa 
+>>>d)    współczynnik wykorzystania pasma zmniejszy się dwukrotnie
+
+
+
+
+9)Filtry kanałowe Nyquista stosujemy w łączności radiowej w celu:
+>>>a) eliminacji interferencji sąsiedniokanałowy 
+b) eliminacji interferencji współkanałowych 
+c) eliminacji ISI (Inter Symbol Interferrency
+>>>d) ograniczeniu do minimum interferencji międzysymbolowych
+
+
+12)Modulacja QPSK z zastosowanym odbiornikiem I/Q 
+a))fazy sygnałów nadajnika i odbiornika są przesunięte względem siebie o pi/12 Zaburzy to poprawny odbiór 
+b))sygnały I i Q są sumowane w odbiorniku i podawane na filtr dolnoprzepustowy 
+c))Częstotliwość oscylatora nie może być taka sama jak częstotliwość nośna
+d))szerokość pasma zależy od częstotliwości nośnej sygnału
+>>>e) żadna z powyższych
+
+
+14)Sekwencja treningowa w systemie GSM: 
+a)    przygotowuje kanał do transmisji pakietów
+>>>b)    ułatwia poprawny odbiór w przypadku wielodrogowości
+>>>c)    pozwala sprawdzić odpowiedź impulsową kanału (transmitancje
+>>>d)    pozwala lepiej rozłożyć energię w kanale
+f)         służy do ustawienia wzmocnienia stopnia mocy
+>>>e) pozwala na ocenę aktualnego stanu kanału radiowego
+
+
+15)W wifi: 802 11 b/g/n 
+>>>a)    stosuje się 11 bitowy kod bakera 
+>>>b)    występują różnie prędkości transmisji zależne od sprawności wykorzystanego kodu splotowego 
+>>>c)    1 Mb/s to pasmo 22 MHz 
+>>>d)    używa się OFDM 52 nośne 
+>>>e) stosowane jest rozpraszanie widma 
+>>>f) stosowana jest modulacja 64QAM
+
+
+16)Zaznacz poprawne zdania : 
+a)    coś o OFDM z pilotami chyba
+b)    chyba b ,ofdm wielu użytkowników na jednej częstotliwości cos
+>>>c)    UMTS różni użytkownicy mogą być na tym samym paśmie częstotliwości na raz
+d)    czy wzrost współczynnika rozproszenia w UTMS spowoduje wzrost prędkości transmisji
+
+
+17)Zaznacz prawdziwe zdania:
+a)    Zasięg wyznaczony wg modelu Okumury Chaty WIEŚKA w mieście jest większy niż wg prawa wolnej przestrzenii - NIE, bo nawet wg labów okumury zawsze jest mniejszy)
+>>>b)    Poziom sygnału dla modelu wielodrogowego może być znacznie niższy niż dla modelu wielodrogowego (jedno?)w danym punkcie
+>>>c)    Poziom sygnału dla częstotliwości wyższej może być wyższy w modelu wielodrogowym niż dla częstotliwości niższej w danym punkcie 
+d)    W GSM stosujemy BPSK 
+
+18)Zaznacz prawdziwe
+a)    na diagramie konstelacji w technice kwadraturowej możemy obserwować dwa stany 
+>>>b)    z konstelacji można odczytać amplitudę, fazę
+>>>c)    z konstelacji można oszacować snr 
+d)    z konstelacji można odczytać pasmo i częstotliwość nośną
+ 
+19)Pytanie o przeplot: (zadanie 13, II tura
+a)    współdzielenie kanałów przez wielu użytkowników
+>>>b)    zmniejsza bitową stopę błędów
+c)   przeplot zmniejsza wpływ zaników selektywnych na transmisję 
+d)    przemnożenie przez ciąg pseudolosowy
+>>>e) zmniejszenie wpływu błędów paczkowych na jakość transmisji
+>>>f) uzyskanie mniejszego BER w rozkodowanym strumieniu danych
+>>>g) pozwala uodpornic system na zaniki wielodrogowe
+>>>h) przy zadanym SNR, zmniejsza BER 
+
+
+1)W cyfrowym systemie nadawczo odbiorczym wykorzystującym modulację 8PSK:
+>>>a) sygnał modulujący jest sygnałem cyfrowym
+b) obwiednia sygnału zmodulowanego zmienia się
+c) nadaje 8 bitów jednocześnie
+d) sygnał zmodulowany jest sygnałem cyfrowym  
+
+2)WCDMA
+>>>A)   Metoda wielodostępu
+B)   Metoda zwielokrotnienia transmisji
+>>>C)   Stosowana w łączu w dół w P-MP
+>>>D)   Stosowana w łączu w górę w P-MP
+E)   Metoda rozpraszania widma
+ 
+
+
+3)Straty w point to point PL (path loss)?
+>>>a)    Zaniki w deszczu
+>>>b)    Straty w gazach atmosferycznych
+c)    Zaniki wywołane przez wielodrogowość (na pewno coś z wielodrogowością
+ 
+4)W montażu Indoor w porównaniu do Outdoor:
+>>>a)Wydłuża się czas między między awariami
+b)Zwiększa się parametr MTTR 
+c)Zmniejsza się parametr MTBF  
+>>>d)Skraca się czas naprawy
+ 
+5)Dominującym rodzajem szumu w doskonale zaprojektowanej, eksploatowanej stacji nadawczo-odbiorczej
+a)stacja stała(?) - szum wewnętrzny odbiornika
+>>>b)stacja ruchoma telefonii komórkowej - szum interferencji wsplokanalowych
+>>>c)stacja ruchoma - szum techniczny
+d)stacja stała - szum echa własnego
+
+
+7)Technika skramblingu:
+>>>a) pozwala na unikanie długich sekwencji jedynek i zer
+>>>b) lepsze rozproszenie energii sygnału w paśmie pracy systemu
+>>>c)przy zadanym SNR pogarsza się BER
+>>>d)polepsza właściwości widmowe sygnału
+
+
+8)Nadajnik o mocy wyjściowej o 13 dB większej od nadajnika o mocy 200mW, Jaka będzie moc tego nadajnika? 
+A) 13dB (dBm 
+>>>B) 36dBm
+>>>C) 4W
+D) 2W
+ 
+9)W systemie bez kodowania FEC używającego modulacji QPSK zmieniono rodzaj modulacji na 8PSK, dodano koder FEC o sprawności 2/3 Co się stanie z prędkością przesyłania informacji niekodowanej nadmiarowo?
+a)    Zwiększy się
+b)    Zmieni się
+>>>c)    Nie zmieni się
+d)    Zmniejszy się
+  
+10)Zastosowanie techniki zwielokrotniania transmisji sekwencją bezpośrednią:
+>>>a)    zmniejsza gęstość widmową
+>>>b)    Możliwa jest realizacja systemu ze stosunkiem sygnału do szumu poniżej 0dB
+>>>c)    Wymaga szerszego pasma
+>>>d)    Zmniejszy wymagany SNR
+>>>e)        Umożliwia wielodostęp
+ 
+11)Zaznacz prawdziwe Częstotliwość w telefonii komórkowej co zrobić aby była idealna synchronizacja z urządzeniem
+a) wystarczający oscylator w telefonie
+>>>b) cykliczna korekta częstotliwości
+c) nośna o kilka kHz większa od wart średniej
+>>>d)wysyłać okresowo sygnał z nośną większą o kilkadziesiąt kHz
+>>>e) użyć pakiety korekcji częstotliwości
+
+
+17)Zaznacz prawdziwe :
+>>>a)    W LTE kanały mają większą szerokość niż w GSM
+>>>b)    W GSM do dzwonienia używana jest 1 z 8 szczelin czasowych
+ 
+18)Wskaż zdania prawdziwe:
+a)    W konstelacji QPSK są możliwe 2 stany
+b)    Z konstelacji można odczytać częstotliwość nośnej
+>>>c)    Z konstelacji można oszacować fazę i amplitudę
+>>>d)    Z konstelacji można oszacować stosunek sygnału do szumu
+ 
+ 
+19)Pytanie o GSM:
+>>>a)    Modulacja gmsk
+>>>b)    Kanał lte ma szersze pasmo niż gsm
+
+
+20)Prawda:
+>>>a)Im wyższy stopień modulacji tym większa czułość wymagana
+b)Im wyższy stopień modulacji tym mniejsza czułość
+
+
+
+
+
+
+3)Oddalanie się terminala ruchomego od stacji bazowej telefonii komórkowej w sieci standardu GSM 900 z szybkością 60 km/h spowoduje, że częstotliwość sygnału nośnego:
+>>>a)w łączu w górę zmaleje,
+>>>b)w łączu w dół zmaleje
+c)w górę wzrośnie
+d) w jednym wzrosnie, w drugim zmaleje
+
+
+5)W systemie z wielodostępem kodowym (CDMA]:
+>>>a) kilka urządzeń może nadawać jednocześnie na tej samej częstotliwości 
+b) wszystkie aktualnie transmitujące stacje ruchome muszą mieć tę samą sekwencję kodową 
+>>>c) wszystkie aktualnie transmitujące stacje ruchome muszą mieć inną sekwencję kodową
+d)  przesyłanie ciągu danych odbywa się w najmniejszym paśmie częstotliwości koniecznym dla danej transmisji 
+>>>e) wszyscy użytkownicy zajmują to samo pasmo i transmitują w sposób ciągły swoje sygnały
+>>>f) Przeznaczone dla systemów z widmem rozproszonym
+>>>g) Dąży się do jak najmniejszej korelacji ciągów rozpraszających każdego użytkownika
+
+
+
+
+7) W systemie bezprzewodowym zastosowano kodowanie splotowe o sprawności R=1/2 zamiast R=3/4W efekcie:
+a)odporność transmisji na błędy zmaleje 
+>>>b)prędkość transmisji zmaleje 
+
+
+
+
+9)Co zrobić, żeby zwiększyć zasięg stacji bazowej:
+>>>a)zwiększyć zysk anteny
+>>>b)zwiększyć moc 
+>>>c) obniżyć częstotliwość(?chyba to było, albo nadmiar kodowy
+>>>d)zmienić czułość z -70dBm na -90dBm (zwiększyć czułość -> zmniejszyć wartosć
+>>>e) Zmienić modulację np z 8QAM na QPSK
+
+
+12)Z anteny 1.2ghz zrobilo sie 2.4 jakie straty
+>>>a)zmalało czerokrotnie 
+b) wzrosło 2 razy
+>>>c) zmalalo o 6db
+d) wzroslo o 3db
+
+
+1)Jednostką C/N jest:
+a)>>>W/W
+b)>>>dB
+c)dBHz
+d)dB/Hz
+
+
+2)Jesli zastosowano technikę MIMO[2,2], modulację QPSK, FEC ½, oraz szerokość pasma to 2MHz to osiągalna prędkośc bitowa bez kodowania nadmiarowego wynosi:
+>>>a) około 4
+b) około 3
+>>>c) wieksze od 2 
+>>>d) większe od 3
+
+
+3)Jeśli chcemy wydłużyć przęsło to:
+>>>a) zmieniamy 8PSK na QPSK
+>>>b) zamieniamy moc 10dBm na -10dBW  
+c) czułość odbiornika z -95dB na -90dB
+d) zysk anteny zmieniamy z 33dBi na 30dBi
+
+
+4)Jeśli zmienimy 16PSK na QPSK to:
+>>>a) wzrośnie sprawność energetyczna
+b) wzrośnie wsp)wykorzystania pasma
+c) potrzebny będzie większy SNR dla zadanego BER
+>>>d)współczynnik wykorzystania pasma zmaleje dwukrotnie
+
+
+
+
+5)W wifi OFDM piloty: 
+a) uzywane są do estymacji funkcji kanalu radiowego 
+>>>b) jako wzorzecz amplitudy i faze
+c) do obliczenia transmitancji kanału radiowego 
+
+
+6)Kodowanie różnicowe:
+
+
+>>>a) poprawia sprawnośc systemu
+b) jest potrzebne dla detekcji niekoherentnej  
+c) powoduje zmniejszenie SNR
+>>>d) pogarsza BER dwukrotnie
+
+
+
+
+7) W wifi bg/n używane są(nie muszą byc wszystkie naraz):
+>>>a) rozpraszanie widma metodą bezposrednia
+b) OFDM z 32 nośnymi 
+>>>c) kodowanie splotowe R=½  
+>>>d) 1Mbit/s na 22MHz 
+
+
+8)Rozpraszanie sekwencją bezposrednią (DSSS):
+a) zwieksza gęstośc widmową 
+b) pozwala zmniejszyc czulosc odbiornika
+>>>c) umozliwia wielodostęp 
+>>>d) wymaga większego2 pasma 
+
+
+
+
+9)Przeplot danych w gsm  przez kodowanie splotowym:
+a) cos tam z widmem 
+>>>b) pozawala uodpornic system na zaniki wielodrogowe 
+>>>c) zmniejsza ber przy zadanym snr 
+d) współdzielenie łącza między kilkoma użytkownikami
+
+
+10) W systemie bezprzewodowym zastosowano kodowanie splotowe o sprawności R=¾ zamiast R=1/2)W efekcie:
+a) uzyskamy lepszą czułość 
+>>>b) uzyskamy  większą szybkość transmisji
+c) uzyskamy lepszą sprawność
+d) uzyskamy większą odporność transmisji danych na błędy
+>>>e) system ten do poprawnej pracy wymaga większego stosunku sygnału do szumu
+
+
+13)UMTS (3G)pors
+a) potrzebuje 3 krotnie większe pasmo niz GSM 
+b) GMSK 
+>>>c) OFDM
+>>>d) FDD w “góre” jest na częstotliwości poniżej 2GHz a w “dół” powyżej 2GHz
+        >>>b) wykorzystuje modulację QPSK
+        >>>c) wykorzystuje transmisję WCDMA
+
+
+14)W montażu zewnętrznym radiowych urządzeń nadawczo-odbiorczych w porównaniu z montażem wewnętrznym:
+>>>a) pogorszenie MTTR 
+>>>b)  mniejszy czas bezawaryjności
+>>>c) wydłuży się czas naprawy po uszkodzeniach / 
+>>>d) pogorszenie MTBF 
+
+
+
+
+2)W systemie bezprzewodowym z detekcją koherentną (nie pamiętam całej treści: 
+a)  przy​ zadanym SNR maleje BER
+>>>b)  przy​ zadanym SNR pogarsza się BER 
+>>>c)​przy zadanym BER poprawia się SNR 
+
+
+
+
+4)Wielodrogowość można poprawić przez: 
+>>>a)​ OFDM​
+>>>b) przeplot 
+
+
+6)Stosowanie kodowania różnicowego w systemach łączności radiowej z detekcją koherentną powoduje, że: 
+a)     Przy zadanym SNR, polepsza się sprawność energetyczna 
+>>>b)  Przy zadanym SNR, pogarsza się BER 
+>>>c)   Przy zadanymBER , poprawia się współczynnik wykorzystania pasma
+d)    Przy zadanym BER, mniejszy SNR
+
+
+7) Sekwencja treningowa: 
+>>>a) wysyła sekwencje wzorcowe amplitudy i fazy​
+
+
+9)Telefonia bezprzewodowa DECT 
+a) wykorzystuje FDD
+>>>b)    nie korzysta z pasma UMTS 
+>>>c) korzysta z pasma powyżej GSM 1800 ale poniżej pasma UMTS​
+d) wykorzystuje GMSK 
+>>>e) wykorzystuje dynamiczną selekcję kanału radiowego
+>>>f) w podstawowym wariancie, pracuje w zakresie częstotliwości 1880-1900 MHz
+
+
+
+
+12)   W modulatorze kwadraturowym I/Q (QPSK)
+ 
+a)         w odbiorniku dwa sygnały o tej samej fazie podawane są na dwa układy mnożące 
+b)   w odbiorniku sumuje się dwa sygnały I oraz Q a następnie stosuje filtr dolnoprzepustowy  
+>>>c)     niewielka zmiana czętotliwości(?) spowoduje rotacje 
+>>>d)        zawiera oscylator
+
+
+
+
+
+
+15)Moc zastępcza promieniowana izotropowo układu złożonego z nadajnika o mocy wyjściowej 100 mW, połączonego z anteną o maksymalnym zysku energetycznym 13 dBi tłumienności 3dB: 
+>>>a)     1 W 
+>>>b)    30 dBm 
+c)     30 dBW 
+d)        0 dB
+
+
+16)Jeśli zastosowano technikę SIMO, modulację QPSK, FEC ½, oraz szerokość pasma to 20MHz to osiągalna prędkość bitowa bez kodowania nadmiarowego wynosi: 
+>>>a)     więcej niż 10 
+>>>b)    około 20 
+c)    więcej niż 20 
+>>>d)    nie więcej niż 20 
+
+
+1)Modulator kwadraturowy (IQ):
+>>>        a) zawiera zarówno gałąź synfazową jak i kwadraturową
+>>>        b) zawiera dwa układy mnożące oraz oscylator
+>>>        c) pozwala uzyskać zarówno modulację QPSK jak i GMSK
+
+
+2)Problemu zaników selektywnych sygnału można się spodziewać:
+        a) w łączach satelitarnych
+>>>        b) w systemach radiokomunikacji ruchomej
+>>>        c) w bezprzewodowych sieciach komputerowych
+
+
+3)W wyniku występowania propagacji wielodrogowej, w stosunku do propagacji jednodrogowej: 
+        a) średni zasięg systemu jest większy
+        b) poziom sygnału ulega fluktuacji, ale średni zasięg systemu jest podobny
+>>>        c) średni zasięg systemu jest mniejszy
+
+
+4)W sieciach WLAN (802 11b/g w wybranych trybach transmisji
+>>>        a) stosowane jest rozpraszanie widma
+>>>        b) stosowana jest transmisja OFDM
+>>>        c) stosowana jest modulacja 64-QAM 
+
+5)Implementacja skoków po częstotliwościach (FH  w systemie GSM:
+>>>        a) pozwala na poprawę skuteczności transmisji radiowej w warunkach miejskich        
+        b) pozwala na poprawę sprawności końcówki mocy
+>>>        c) nie jest stosowana dla kanału rozsiewczego stacji bazowej
+
+
+6)Przeplot w systemach radiokomunikacyjnych pozwala na:
+        a) współdzielenie łącza między kilkoma użytkownikami
+>>>        b) zmniejszenie wpływu błędów paczkowych na jakość transmisji
+>>>        c) uzyskanie mniejszego BER w rozkodowanym strumieniu danych
+
+7)Transmisja z podstawową modulacją QPSK o przepływności 1 Mbit/s
+>>>        a) wymaga kanału radiowego o szerokości rzędu 1 MHz 
+        b) pozwala na zwiększenie prędkości transmisji, ale wymaga większego pasma niż BPSK
+>>>        c) wymaga większej liniowości stopnia nadawczego niż modulacja pi/4 DQPS
+
+
+8)Stacja ruchoma GSM wykrywa właściwą stację bazową dzięki:
+        a) ustawieniom częstotliwości zapisanym przez operatora na karcie SIM
+>>>        b) informacjom systemowym ze szczeliny zerowej podstawowej częstotliwości nośnej stacji bazowej
+>>>        c) informacjom przesyłanym w kanale rozsiewczym stacji bazowej
+
+
+9)Dla systemu telefonii komórkowej GSM, przy tej samej mocy nadajnika stacji bazowej
+        a) zasięg w paśmie 1800 MHz jest większy niż w paśmie 900 MHz
+        >>>b) zasięg w paśmie 1800 MHz jest mniejszy niż w paśmie 900 MHz
+        c) zasięg w obydwu pasmach, 900 MHz i 1800 MHz jest podobny
+
+
+
+
+10)Transmisja radiowa z rozpraszaniem widma sekwencją bezpośrednią (np)w sieciach WLAN), w stosunku do transmisji radiowej bez rozpraszania, ale z taką samą modulacją:
+        >>>a) wymaga szerszego pasma 
+        b) jest mniej odporna na zakłócenia wąskopasmowe
+        c) wymaga większego stosunku sygnału do szumu na wejściu odbiornika 
+
+
+11)Tryby transmisji wykorzystujące OFDM w bezprzewodowych sieciach komputerowych (802 11g  w porównaniu z trybami opartymi o rozpraszanie widma
+        >>>a) pozwalają na uzyskanie większej prędkości transmisji 
+>>>        b) wymagają większego stosunku sygnału do szumu 
+>>>        c) polegają na transmisji sygnału równolegle na wielu nośnych
+
+
+12)W bezprzewodowych lokalnych sieciach komputerowych (IEEE 802 11b/g 
+>>>        a) urządzenia rywalizują o dostęp do kanału radiowego
+        b) urządzenia podłączone do tej samej sieci w ramach jednego punktu dostępowego mogą równocześnie nadawać i odbierać dane
+>>>        c) urządzenie musi przeprowadzić nasłuch kanału radiowego przed rozpoczęciem nadawania
+
+13)Konstelacja sygnału QPSK
+        >>>a) obrazuje wartości składowych synfazowej i kwadraturowej
+>>>        b) obrazuje amplitudę i fazę transmitowanego symbolu
+        c) obrazuje częstotliwość fali nośnej 
+
+
+14)Stosowana w GSM modulacja GMSK jest odmianą modulacji częstotliwości:
+>>>        a) wykorzystującą filtr gaussowski
+>>>        b) z ciągłą fazą 
+>>>        c) z indeksem modulacji 0_5
+
+15)Skramblowanie w systemie GSM pozwala na:
+>>>        a) uniknięcie długich sekwencji zer i jedynek
+>>>        b) lepsze rozproszenie energii sygnału w paśmie pracy systemu
+        c) zabezpieczenie transmisji przed podsłuchem
+
+
+16)Odbiór zbiorczy przestrzenny w systemie GSM:
+>>>        a) pozwala na poprawę stosunku sygnału do szumu w przypadku zaników sygnału
+>>>        b) poprawia skuteczność odbioru w środowisku miejskim
+>>>        c) może zostać zaimplementowany poprzez zastosowanie w stacji bazowej dodatkowej anteny odbiorczej
+
+17)Pakiet korekcji częstotliwości w systemie GSM:
+>>>        a) zawiera same bity zerowe
+>>>        b) na jego podstawie dokonywana jest korekta częstotliwości nośnej a nie synchronizacja zegarów 
+        c) zawiera same bity „1”
+
+18)Informacje identyfikacyjne stacji bazowej GSM:
+>>>        a) przesyłane są do stacji ruchomej dedykowanej kanałem logicznym na etapie pierwszego łączenia z daną stacją bazową 
+        b) służą do identyfikacji operatora
+>>>        c) zawarte są w kanale SCH 
+
+
+19)W sieciach WLAN w standardzie IEEE 802 11g:
+>>>        a) wykorzystuje się transmisję OFDM
+>>>        b) wysoka prędkość transmisji danych jest otrzymywana poprzez połączenie transmisji o mniejszej prędkości na wielu nośnych tworzących jeden kanał o dużej przepływności
+        c) w ogóle nie objawia się wpływ interferencji międzysymbolowych
+>>>        d) kanał wynikowy ma szerokość 20 MHz i tworzą go 52 nośne
+>>>        e) występują sygnały pilotowe ze znaną amplitudą i fazą
+        f) występuje możliwość indywidualnego doboru modulacji do każdej nośnej 
+
+20)Zasada transmisji OFDM polega na:
+        a) multipleksowaniu różnych użytkowników w jednym kanale częstotliwościowym
+        b) jednoczesnej transmisji wielu strumieni danych na jednej częstotliwości
+>>>        c) jednoczesnej transmisji wielu strumieni danych na ortogonalnych częstotliwościach nośnych
+
+
+21)W wyniku zastosowania techniki rozpraszania widma metodą sekwencji bezpośredniej (DSSS):
+>>>        a) możliwa jest realizacja systemu pracującego ze stosunkiem sygnału do szumu poniżej 0 dB
+>>>        b) szybkość modulacji celowo się zwiększa aby poszerzyć pasmo
+        c) sekwencja rozpraszająca jest tej samej przepływności co strumień danych
+>>>        d) do odzyskania danych konieczna znajomość sekwencji bezpośredniej (większe bezpieczeństwo informacji
+        e) nie ma możliwości realizacji wielodostępu metodą CDMA
+
+
+22)Rozpraszanie widma metodą skoków po częstotliwościach (FHSS):
+        a) polega na transmisji pakietów na kolejnych częstotliwościach z dostępnej puli kanałów
+>>>        b) polega na transmisji pakietów na częstotliwościach dobranych w ciąg pseudolosowy 
+>>>        c) umożliwia jednoczesną pracę wielu systemów w tym samym paśmie częstotliwości
+
+23)Poziom EIRP (Zastępcza izotropowa moc promieniowania:
+>>>        a) ulegnie zmianie gdy zmieniona zostanie długość linii transmisyjnej pomiędzy anteną a nadajnikiem
+>>>        b) wyraża się wzorem EIRP [W] = Pt*Gt
+>>>        c) EIRP [dBm] = Pt[dBm] + Gt [dBi] 
+        d) jest taki sam jak poziom ERP
+
+
+
+
+24)Modulacja pi/4 DQPSK:
+        a) przy transmisji pakietu zawierającego same zera faza nośnej będzie stałą i równa pi4
+>>>        b) przy transmisji pakietu zawierającego same zera faza nośnej będzie zmienia się o stałą wartość pi/4
+>>>        c) przy transmisji pakietu zawierającego same jedynki faza nośnej będzie zmieniała 
+się o stałą wartość równą -3pi/4
+
+25)W systemie EDGE:
+>>>        a) uzyskano większą przepływność transmisji dzięki zastosowaniu modulacji z rodziny 8-PSK
+        b) nie występuje sterowanie jakością łącza
+>>>        c) konstelacja podlega rotacji
+>>>        d) system EDGE jest rozwinięciem systemu GPRS
+
+
+26)I 2015 DWA zad 13
+        
+27)Odbiornik o jakich parametrach będzie lepszy? W przypadku gdy mamy równe BER to lepszy jest odbiornik o niższym RSL np) 
+        a) RSL = -90 dBm, BER = 10e-3, 
+>>>        b) RSL = - 100 dBm, BER = 10e-3
+
+
+28)Czym jest dyfrakcja?
+        a) rozproszeniem się fali
+        b) zjawiskiem zmiany polaryzacji fali
+>>>        c) zjawiskiem ugięcia i zmiany trajektorii fali
+
+
+29)Funkcja przenoszenia kanału RF w systemach łączności ruchomej
+        a) jest funkcją o stałych w czasie parametrach
+        b) zmieniają się parametry tylko jej charakterystyki amplitudowej
+>>>        c) w systemach łączności ruchomej mamy do czynienia z zanikami dużej i małej skali
+>>>        d) z zanikami są związane modele propagacji fal radiowych
+
+30)1W to ile dBm lub ile dBW
+>>>        a) 0 dBW
+        b) 10 dBW
+        c) 0 dBm
+        d) 40 dBm
+
+
+31)Model propagacji przyziemnej przestrzennej, model propagacji oparty na prawie czwartej potęgi, zaznacz prawdziwe stwierdzenia
+        a) Moc zależy wprost proporcjonalnie do drugiej potęgi odległości
+        b) Moc zależy wprost proporcjonalnie do czwartej potęgi odległości
+        c) Moc zależy odwrotnie proporcjonalnie do drugiej potęgi odległości
+>>>        d) Moc zależy odwrotnie proporcjonalnie do czwartej potęgi odległości
+
+
+
+
+32)Wskaż prawdziwe stwierdzenia dotyczące przęsła
+        a) Im wyższa częstotliwość fali nośnej tym dłuższe przęsło
+>>>        b) Im wyższa moc wyjściowa nadajnika tym dłuższe przęsło
+>>>        c) Im czulszy odbiornik tym dłuższe przęsło
+        d) Im większa ilość modulacji tym dłuższe przęsło
