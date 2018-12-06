@@ -1,0 +1,231 @@
+
+1. Bezpośrednia konwersja energii promieniowania słonecznego na energię elektryczną w ogniwie słonecznym odbywa się poprzez wykorzystanie:
+a) 	zjawiska fotoelektrycznego zewnętrznego
+b) 	zjawiska Comptona
+c) 	zjawiska fotoluminescencji
+>>>d)  zjawiska fotoelektrycznego wewnętrznego
+
+2. Na czym polega zjawisko fotoelektryczne zewnętrzne?
+a) na powstawaniu siły elektromotorycznej w półprzewodniku podczas jednoczesnego ściskania go  w oświetlania
+b) na powstaniu pary nośników ładunku elektron - dziura w wyniku pochłonięcia przez półprzewodnik promieniowania elektromagnetycznego
+>>>c) emisji elektronów z powierzchni metalu pod wpływem promieniowania elektromagnetycznego
+d) na wzbudzeniu luminescencji przez promieniowanie elektromagnetyczne z obszaru widzialnego lub nadfioletu
+
+3. Dzięki jakiemu zjawisku energia cieplna dociera ze słońca do satelity geostacjonarnego Ziemi krążącego po orbicie?
+a) Euro konwekcji <potrzebuje gazu cieczy lub plazmy do przekazania energii>
+>>>b) tylko promieniowaniu ?
+c) konwekcji i promieniowaniu
+d) przewodnictwu i promieniowaniu
+
+4. Która wielkość zmienia się zawsze przy przejściu światła przez granicę dwóch ośrodków, w których prędkości rozchodzenia się światła są różne?
+a) częstotliwość
+b) barwa
+>>>c) kierunek rozchodzenia się
+d) amplituda
+
+5. Wielkość szczególnie istotna w konwersji energii w przestrzeni kosmicznej wynosi 1,353 kW/m i nazywana jest stałą słoneczną. W warunkach ziemskich jej wartość:
+>>>a) jest mniejsza a także silnie zależy od kąta pod jakim promieniowanie słoneczne pada na powierzchnię Ziemi
+b) jest większa i zależy od warunków panujących w atmosferze ziemskiej
+c) jest mniejsza i zależy od kąta pod jakim promieniowanie słoneczne pada na równiku
+d) jest taka sama, bo warunki w atmosferze Ziemi nie wpływają na nią
+
+6. Aby wykorzystać jak największą część widma słonecznego, przerwa energetyczna Eg danego półprzewodnika powinna być:
+a) jak największa, ale nie większa niż 3,5 eV
+b) jak najmniejsza, ale nie mniejsza niż 1,5 eV
+>>>c) jak najmniejsza, ale z uwzględnieniem czułości spektralnej fotoogniwa na dane widmo promieniowania
+d) mniejsza, lub równa 1,5 eV
+
+7. Ogniwo wykonuje się:
+      a) z półprzewodnika typu n pokrytego warstwą półprzewodnika typu p o grubości 1 um
+      b) z półprzewodnika typu p pokrytego warstwą półprzewodnika typu n o grubości 10 um
+      c) z półprzewodnika typu n pokrytego warstwą półprzewodnika typu p o grubości 100 nm
+      >>>d) z półprzewodnika typu p pokrytego warstwą półprzewodnika typu n o grubości 1000 nm
+
+8. Współczynnik wypełnienia ogniwa FF określa związek między:
+a) mocą promieniowania padającego na ogniwo a prądem maksymalnym
+>>>b) mocą maksymalną a iloczynem prądu zwarcia i napięcia obwodu otwartego
+c) napięciem obwodu otwartego a iloczynem prądu i napięcia maksymalnego
+d) iloczynem prądu zwarcia i napięcia obwodu otwartego a mocą promieniowania padającego na ogniwo
+
+9. Temperatura ogniwa wpływa następująco na jego parametry:
+>>>a) im wyższa temperatura, tym napięcie obwodu otwartego oraz współczynnik wypełnienia są niższe
+b) im wyższa temperatura, tym prąd zwarcia i sprawność wyższe
+c) im niższa temperatura, tym napięcie obwodu otwartego wyższe a sprawność niższa
+d) im niższa temperatura, tym napięcie obwodu otwartego niższe a sprawność wyższa
+
+10. Roczne zapotrzebowanie na energię w przeliczeniu na jednego człowieka wynosi:
+a) 25 000 kWh
+b) 10 000 kWh
+>>>c) 20 000 kWh
+d) 15 000 kWh
+
+11. W absorpcji światła w atmosferze uczestniczą cząsteczki:
+a) 02, N2, H20, CO2
+>>>b) O2, O3, H2O, CO2
+c) O2, O3, H2O, CO 
+d) O2, Ar3, H2O, CO2
+
+
+12. Efekt fotowoltaiczny:
+a) to proces generacji elektronów i ich przepływ pod wpływem światła
+b) to proces wymuszenia przepływu prądu w materiale pod wpływem światła
+>>>c) to proces powstawania siły elektromotorycznej w materiale pod wpływem światła tak twierdzi wikipedia
+d) to proces powstania napięcia na granicy złącza p-n
+
+13. Proces polegający na bezpośrednim przejściu nośników z pasma przewodnictwa do pasma walencyjnego, odwrotny do absorbcji światła, nazywamy:
+a) rekombinacją powierzchniową
+b) fotoprzewodnictwem
+c) rekombinacją dyfuzyjną
+>>>d) rekombinacją objętościową prostą
+
+14. Oprócz prądów wstrzykiwania, przez złącze przepływają także prądy nośników mniejszościowych nazywane prądami:
+>>>a) generacji
+b) upływu
+c) rekombinacji
+d) strat
+
+15. Na rezystancję szeregową Rs, składają się następujące składowe:
+a) opór kontaktów, opór elektrody zbierającej oraz tylnej
+>>>b) opór kontaktów, doprowadzeń, rezystancja elektrody zbierającej oraz inne oporności warstw ogniwa
+c) opór kontaktów, opór doprowadzeń, rezystancja elektrody przedniej
+d) opór kontaktów, rezystancja elektrody przedniej i tylnej, oporności dodatkowych warstw ogniwa
+
+16. Aby parametry elektryczne ogniwa były jak najlepsze to: 
+>>>a) Wartość Rezystancji szeregowej Rs powinna być jak najmniejsza, natomiast wartość  rezystancji równoległej Rw powinna dążyć do nieskończoności
+b) Wartość rezystancji Rw powinna być jak najmniejsza, natomiast wartość Rs powinna dążyć do nieskończoności
+c) Wartość rezystancji Rs powinna być jak największa, natomiast wartość Rw powinna dążyć do 0
+d) Wartość rezystancji Rs powinna być jak największa, natomiast wartość Rw powinna być stała - około 0,1
+
+17. Sprawność ogniwa znacząco ograniczają 3 czynniki: 
+	>>>a)czynnik spektralny, napięciowy i wypełnienia
+
+18. Udział głównych technologii wytwarzania komercyjnych ogniw słonecznych wynosi: 
+
+	>>>a)58% multi, 32 % mono, 7% cienkowarstwowe, 3% inne
+
+19. Optymalna grubość warstwy antyrefleksyjnej wyznaczona jest na podstawie znajomości jej współczynnika załamania światła dla wybranej długości fali 
+>>>a) n=lambda/(4d) 
+
+20. Wydajność kwantowa Q(lambda) ogniwa dla danej długości fali świetlnej to: 
+>>>a) stosunek gęstości prądu obwodu zwartego do iloczynu ładunku elementarnego i gęstości strumienia fotonów o długości fali lambda. 
+
+1. Na czym polega zjawisko fotoelektryczne wewnętrzne:
+a) Na powstawaniu wewnątrz kryształu pola elektrycznego pod wpływem deformacji mechanicznych
+b) Na emisji elektronów z powierzchni metalu pod wpływem światła
+>>>c) Na tworzeniu dodatkowych elektronów swobodnych w wyniku absorpcji światła padającego na półprzewodnik / chyba
+d) na powstaniu ładunków elektrycznych na powierzchni kryształow dielektrycznych pod wpływem ich ogrzewania lub ochładzania
+
+2. Obserwowany czerwony kolor wschodzącego i zachodzącego słońca wynika z :
+a) obniżenia temperatury powietrza
+>>>b) rozproszenia krótkotrwałej części widma w grubszej warstwie atmosfery
+c) odbicia krótkotrwałej części widma w zewnętrznej warstwie atmosfery
+d) pochłonięcia długofalowej części widma w powietrzu o podwyższonej wilgotności
+
+3. Wszystkie istniejące na ziemi złoża węgla, ropy naftowej i gazu ziemnego zawierają łącznie energię, która odpowiada energii, jaka dociera ze słońca do Ziemii w ciągu:
+a) 48 dni
+b) 112 dni
+c) 365 dni
+>>>d) 56 dni
+
+4. co się dzieje z oporem półprzewodnika ze wzrostem temperatury:
+a) rośnie gdyż rośnie prawdopodobieństwo zderzeń elektronów z atomami kryształu, utrudniających przepływ prądu, z powodu wzrastającej amplitudy drgań atomów wokół położenia równowagi
+b) rośnie gdyż maleje koncentracja elektronów swobodnych
+>>>c) maleje, gdyż rośnie liczba nośników ładunku
+d) maleje, gdyż opór elektryczny dowolnej substancji maleje wraz ze wzrostem temperatury
+
+5. współczynnik masy powietrza AMX określa:
+     >>>a) drogę optyczną, znormalizowaną dla najkrótszej możliwej drogi, sypke  jaką musi przebyć                                                       promień słoneczny przechodzący przez atmosferę raczej to moim zdaniem x2
+     b) odcinek jaki musi pokonać promień słoneczny, przechodzący przez atmosferę
+     c) odległość jaką przebywa promień słoneczny w najkrótszym czasie
+     d) drogę optyczną jaki musi pokonać promień słoneczny przechodzący przez atmosferę,           gdy kierunek do Słońca pokrywa się z zenitem <- a nie ta znormalizowana droga? no właśnie jedno i drugie (normalizacja i zenit)  wiec w sumie to nie wiem :< AM1 jest dla zenitu
+  
+6. Cienkowarstwowe ogniwa heterozłączowe Cu2S/CdS po raz pierwszy pojawiły się:
+a) w latach 60-tych XXw
+b) w latach 80-tych XXw
+c) na początku XXIw
+>>>d) w latach 70-tych XXw
+
+7. konwersja promieniowania słonecznego w energię elektryczna składa się z następujących procesów fizycznych(ważna jest także kolejność):
+a)absorpcji promieniowania słonecznego, separacji ładunków w zewnętrznym polu elektrycznym złącza, dyfuzji nośników ładunków
+>>>b)absorpcji promieniowania słonecznego, migracji elektronów I dziur do obszaru złącza, separacji ładunków w wewnętrznym polu elektrycznym złącza
+c)  absorpcji promieniowania słonecznego, dyfuzji nośników ładunków, separacji ładunków     w zewnętrznym polu elektrycznym złącza
+d)   absorpcji promieniowania słonecznego, rekombinacji nośników ładunków, separacji ładunków w zewnętrznym polu elektrycznym złącza
+
+8. Warstwa antyrefleksyjna na ogniwa słoneczne powinna charakteryzować się następującymi parametrami:
+>>>a) współczynnik załamania 1,9 - 2,1, grubość 0,06 - 0,1um, współczynnik efektywnego odbicia światła 5-15 %
+b) grubość 600 - 800nm, współczynnik załamania 1,9 - 2,1,, współczynnik efektywnego odbicia światła 10 - 30 %
+c) współczynnik załamania 1,5 - 2,1, grubość 60 - 100um, współczynnik efektywnego odbicia światła 5-15 %
+d) współczynnik załamania 1,9 - 2,1, grubość 0,6 - 0,9um, współczynnik efektywnego odbicia światła 10-15 %
+
+9. Promieniowanie słoneczne można wykorzystać do celów energetycznych:
+>>>a) w konwersji fotowoltaicznej oraz fototermicznej
+b) tylko w konwersji fotowoltaicznej 
+c) w konwersji fotowoltaicznej oraz fotoenergetycznej 
+d) w emisji konwekcji
+
+10. Zakres widzialny światła, najbardziej efektywny dla pracy ogniw, odpowiada długościom fal:
+a) 350 - 800 nm
+b) 400 - 790 nm
+c) 450 - 900 nm
+>>>d) 400 - 760 nm - bo każda wyżej to już podczerwień i na niom nie popaczysz
+
+11. Które z poniższych stwierdzeń dotyczących prędkości światła w próżni jest prawdziwe?
+a) zależy od długości fali
+>>>b) jest jednakowa dla fali o różnych częstotliwościach 
+c) jest różna w różnych inercjalnych układach odniesienia
+d) zależy tylko od prędkości źródła światła
+
+12. Warunki STC pomiarów ogniw słonecznych odnoszą się do sytuacji, gdy:
+>>>a) temperatura na powierzchni ogniwa wynosi 25 stopni C, a natężenie światła 1000W/m2
+b) temperatura nad ogniwem wynosi 25 stopni C, wilgotność względna 30%, a natężenie światła 1000W/cm2
+c) temperatura na powierzchni ogniwa wynosi 25 stopni C, a natężenie światła 100kW/m2
+d) temperatura nad ogniwem wynosi 25 stopni C, wilgotność względna 50%, a natężenie światła 1000W/m2
+
+13. Najważniejsze elementy składowe ogniwa fotowoltaicznego to
+a) złącze p-n, warstwa antyrefleksyjna
+b) emiter, kolektor, baza i para kontaktów elektrycznych
+c) złącze p-n, kontakty elektryczne, warstwa steksturyzowana
+>>>d) emiter, kolektor, elektroda przednia i tylna
+
+14. Bezpośrednie przejście nośników z pasma przewodnictwa do pasma walencyjnego, odwrotne do absorpcji światła nazywamy procesem:
+>>>a) rekombinacji objętościowej prostej
+	b)fotoprzewodnictwa
+	c)rekombinacji dyfuzyjnej
+	d)rekombinacji powierzchniowej
+
+15.Złącza stosowane w konwersji fotowoltaicznej to
+	a)heterozłącza, złącza MS i złącza Schottkyego
+	b)homozłącza i złącza MS
+	>>>c)heterozłącza, homozłącza, złącza MiS i złącza Schottkyego
+	d)homozłącza, heterozłącza i złącza MS
+
+16.Rezystancja równoległa Rw jest związana:
+	a)z defektami strukturalnymi na granicach międzyziarnowych
+	>>>b)ze wszystkimi defektami struktury kryształu materiału bazowego
+	c)ze składem chemicznym materiału bazowego ogniw
+	d)ze składem chemicznym materiału kontaktów elektrycznych
+
+17.Wartość mocy max Pm zależy od:
+	a)mocy promieniowania słonecznego, padającego na ogniwo oraz jego powierzchni
+	b)rodzaju złącz, jakość kontaktów oraz typu ogniwa
+c)właściwości elektrycznych i optycznych materiałów złącza, jakości kontaktów, procesów zachodzących w obszarze złącza
+>>>d)właściwości elektrycznych i optycznych materiałów złącza, jakości kontaktów,procesów zachodzących w obszarze złącza oraz typu ogniwa
+
+18. Która kolejność wymienionych etapów technologii ogniw jest właściwa:
+>>>a) trawienie i mycie podłoży, proces dyfuzji w piecu IR, nanoszenie warstwy antyrefleksyjnej, drukowanie i wypalanie kontaktów przednich i tylnych
+b) trawienie i mycie podłoży, proces dyfuzji w piecu IR, nanoszenie warstwy antyrefleksyjnej, wytrawianie szkliwa fosforokrzemowego (PSG), drukowanie i wypalanie kontaktów przednich i tylnych
+c) trawienie i mycie podłoży, proces dyfuzji w piecu IR, wytrawianie  fosforokrzemowego (PSG), drukowanie tylnych kontaktów, nanoszenie warstwy antyrefleksyjnej, drukowanie przednich kontaktów
+d) trawienie i mycie podłoż, proces dyfuzji w piecu IR, wytrawianie szkliwa fosforokrzemowego (PSG), drukowanie przednich i tylnych kontaktów, nanoszenie warstwy antyreflekcyjnej 
+
+19. Efektywny czas życia nośników ładunku … jest:
+a) wypadkową procesów generacji, zachodzących wewnątrz ogniw, jak i na jego powierzchni
+b) wypadkową procesów rekombinacyjnych, zachodzących wewnątrz całej objętości ogniwa
+>>>c) wypadkową procesów rekombinacyjnych, zachodzących na powierzchni ogniwa, jak i wewnątrz objętości
+d) wypadkową procesów rekombinacyjnych, zachodzących wewnątrz objętości, jak i generacji na jego powierzchni
+
+20. Według danych z 2012 roku, największe instalacje PV na świecie posiadają :
+a) Niemcy, Hiszpania, Chiny
+>>>b) Niemcy, Włochy, Japonia
+c) Chiny, Niemcy, Włochy
+d) Niemcy, Włochy, Hiszpania
+

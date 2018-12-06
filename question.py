@@ -2,7 +2,7 @@ from termcolor import cprint
 
 class Question:
     questionsQuantity = 0
-    def __init__(self, description, answerList):
+    def __init__(self, description, answerList, rand):
         #provided description without question number, answerList must on the other hand be with a)b)c)d) etc.
         #correct answer must be marked with thriple '>', such as '>>>'
         Question.questionsQuantity += 1
@@ -11,6 +11,7 @@ class Question:
         self.ansDict = {}
         self.getAnswers(answerList)
         self.correctBool = False
+        self.rand = rand
 
     def getAnswers(self, answerList):
         self.answerSet = set()
@@ -43,7 +44,8 @@ class Question:
 
     def ask(self):
         print(str(self.questionNo) + ". " + self.desc.strip(), "\n")
-        for key in sorted(self.ansDict.keys()):
+        iterDict = self.ansDict.keys() if self.rand else sorted(self.ansDict.keys())
+        for key in iterDict:
             print(str(key) + ") " + self.ansDict[key].replace(">>>", ""))
         print("\nAnswer: ", end="")
         while True:

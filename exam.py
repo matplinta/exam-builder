@@ -4,14 +4,19 @@ import re
 import sys
 import os
 import argparse
+from random import sample
 
 
 class Exam:
-    def __init__(self, file, debug):
+    def __init__(self, file, debug, random, randomQuestions):
         self.filePath = file
+        self.randomQuestions = randomQuestions
         self.questions = list()
         self.loadQuestions()
         self.questionsDict = {}
+        if random:
+            self.questions = sample(self.questions, len(self.questions))
+
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Questions: {}".format(Question.questionsQuantity))
         input("Press Enter to start")
@@ -49,7 +54,7 @@ class Exam:
                 newQuestionSearch = newQuestionRegex.search(line.strip()[0:4])
                 if newQuestionSearch:
                     if currentAnsList and currentDesc:
-                        self.questions.append(Question(currentDesc, currentAnsList))
+                        self.questions.append(Question(currentDesc, currentAnsList, self.randomQuestions))
                     currentAnsList = list()
                     currentDesc = line[0:4].replace(newQuestionSearch.group(), "").lstrip() + line[4:].rstrip()
                     continue
@@ -57,7 +62,7 @@ class Exam:
                     currentAnsList.append(line)
                     continue
                 currentDesc += " " + line
-            self.questions.append(Question(currentDesc, currentAnsList))
+            self.questions.append(Question(currentDesc, currentAnsList, self.randomQuestions))
             file.close()
 
     def summarise(self):
@@ -86,5 +91,7 @@ class Exam:
 parser = argparse.ArgumentParser()
 parser.add_argument('file', help="File with exam questions and answers")
 parser.add_argument('-d', '--debug', action="store_true", help="Enter debugging(learning) mode, with correct answers displayed")
+parser.add_argument('-r', '--random', action="store_true", help="Questions in random sequence")
+parser.add_argument('-R', '--rand_questions', action="store_true", help="Answers given in random sequence")
 args = parser.parse_args()
-instance = Exam(args.file, args.debug)
+instance = Exam(args.file, args.debug, args.random, args.rand_questions)
