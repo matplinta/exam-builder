@@ -4,7 +4,7 @@ Terminal script for learning test answeres and carrying out single & multiple ch
 Run it with `python3 exam.py <file>`
 
 # Usage
-Program parses provided test file and defaultly starts asking questions in the order corresponding to the file. If test is interrupted by pressing ^C or the number of questions runs out, user is taken into summary display, which enumerates number of questions answered correctly and not. After pressing `Enter`, user is reminded of all the questions answered incorrectly.
+Program parses provided test file and defaultly starts asking questions in the order corresponding to that in the file. If test is interrupted by pressing ^C or the number of questions runs out, user is taken into summary display, which enumerates number of questions answered correctly and not. After pressing `Enter`, user is reminded of all the questions answered incorrectly.
 
 There is also a possibility to run program in debug mode, which is essentially a learning tool, showing correct answeres to every question. 
 
