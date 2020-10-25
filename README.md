@@ -1,10 +1,10 @@
 # exam-builder
 Terminal script for learning test answeres and carrying out single & multiple choice tests.
 
-Run it with `python3 exam.py <file>`
+Run it with `./exam.py <file>`
 
 # Usage
-Program parses provided test file and defaultly starts asking questions in the order corresponding to that in the file. If test is interrupted by pressing ^C or the number of questions runs out, user is taken into summary display, which enumerates number of questions answered correctly and not. After pressing `Enter`, user is reminded of all the questions answered incorrectly.
+Program parses provided test file and defaultly starts asking questions in the order corresponding to that in the file. If test is interrupted by pressing ^C or the number of questions runs out, user is taken into summary display, which enumerates number of questions answered correctly and not. Summary is also displayed after pressing ^C to exit the program. After pressing `Enter`, user is reminded of all the questions answered incorrectly.
 
 There is also a possibility to run program in debug mode, which is essentially a learning tool, showing correct answeres to every question. 
 
